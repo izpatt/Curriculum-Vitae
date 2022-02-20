@@ -57,7 +57,7 @@
 }
 
 
-.education {
+.initialDiv {
     padding-right: 30px;
     padding-left: 35px;
     font-family: Raleway;
@@ -93,6 +93,7 @@
 .bulletedDescription {
     font-weight: 445;
     font-size: 14px;
+    padding-bottom: 10px;
 }
 
 .hrClassName{

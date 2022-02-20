@@ -11,7 +11,7 @@ class Education extends React.Component {
     render() {
         return(
             
-            <div className='education'>
+            <div className='initialDiv'>
                     <br/>
                     <h1 className='titleHeader'><img src={Educ} alt='education' width='35' height='35' /> &nbsp;
                    Educational Background</h1>

@@ -10,20 +10,21 @@ import'../body.css';
 class Skills extends React.Component {
     render() {
         return(
-            <div className='education'>
+            <div className='initialDiv'>
+                   <br/>
 
-                    <h1><img src={Skill} alt='skills' width='50' height='50' /> &nbsp;
-                   Skills</h1>
+                    <h1 className='titleHeader'><img src={Skill} alt='skills' width='35' height='35' /> &nbsp;
+                   Skill Set</h1>
                     
-                    <hr></hr>
+                    <hr className='hrClassName'></hr>
                     
                     <table>
                         <tr>
-                            <td><img src={Developer} alt='developer' width='48' height='56' /></td>  &nbsp;
-                            <td>Programming and Other Languages 
+                            <td><img src={Developer} alt='developer' width='45' height='45' /></td>  &nbsp;
+                            <td className='titleDescription'>Programming and Other Languages 
                             <br />
-                            <span>Website and Mobile Application Development</span>
-                                <ul>
+                            <span className='subtitleDescription'>Website and Mobile Application Development</span>
+                                <ul className='bulletedDescription'>
                                     <li>HTML, CSS, JavaScript</li>
                                     <li>Java, Python, PHP, Visual Basic</li>
                                     <li>React Native, React</li>
@@ -35,11 +36,11 @@ class Skills extends React.Component {
                         </tr>
 
                         <tr>
-                            <td><img src={Tools} alt='tools' width='48' height='56' /></td>  &nbsp;
-                            <td>Tools and Technologies 
+                            <td><img src={Tools} alt='tools' width='45' height='45' /></td>  &nbsp;
+                            <td className='titleDescription'>Tools and Technologies 
                             <br />
-                            <span>Software Applications, Databases and Operating Systems </span>
-                                <ul>
+                            <span className='subtitleDescription'>Software Applications, Databases and Operating Systems </span>
+                                <ul className='bulletedDescription'>
                                     <li>Git, Dialogflow, Microsoft Office</li>
                                     <li>My SQL, Firebase- Firestore</li>
                                     <li>Windows, Basic Knowledge in Windows Server 2012 and Ubuntu</li>
@@ -52,11 +53,11 @@ class Skills extends React.Component {
                         </tr>
 
                         <tr>
-                            <td><img src={Inter} alt='interpersonal' width='48' height='56' /></td>  &nbsp;
-                            <td>Interpersonal and other soft skills 
+                            <td><img src={Inter} alt='interpersonal' width='45' height='45' /></td>  &nbsp;
+                            <td className='titleDescription'>Interpersonal and other soft skills 
                             <br />
-                            <span>Communication, Leadership and Creativity</span>
-                                <ul>
+                            <span className='subtitleDescription'>Communication, Leadership and Creativity</span>
+                                <ul className='bulletedDescription'>
                                     <li>Public Speaking and Teaching Ability</li>
                                     <li>Project Management</li>
 
