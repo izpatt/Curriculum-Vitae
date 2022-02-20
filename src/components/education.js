@@ -13,14 +13,14 @@ class Education extends React.Component {
             
             <div className='initialDiv'>
                     <br/>
-                    <h1 className='titleHeader'><img src={Educ} alt='education' width='35' height='35' /> &nbsp;
+                    <h1 className='titleHeader'><img src={Educ} alt='education' width='50' height='50' /> &nbsp;
                    Educational Background</h1>
                     
                     <hr className='hrClassName'></hr>
                     
                     <table>
                         <tr>
-                            <td><img src={IICS} alt='iics' width='48' height='56' /></td>  &nbsp;
+                            <td><img src={IICS} alt='iics' width='45' height='55' /></td>  &nbsp;
                             <td className='titleDescription'>UST College of Information and Computing Sciences 
                                 <br/>
                                 <span className='subtitleDescription'>Specializing in Website and Mobile Application Development</span>

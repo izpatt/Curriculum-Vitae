@@ -1,39 +1,50 @@
 import React from 'react';
 import Charac from '../assets/charac.png';
-import Developer from '../assets/developer.png';
-import Tools from '../assets/tools.png';
-import Inter from '../assets/inter.png';
+import Telus from '../assets/telus.jpg';
+import IICS from '../assets/cics.png';
+
 import'../body.css';
 
-//Contains Contact Information 
+//Contains Character References Information 
 class CharacterReferences extends React.Component {
     render() {
         return(
-            <div className='education'>
+            <div className='initialDiv'>
+                <br/>
 
-                    <h1><img src={Charac} alt='charac' width='50' height='50' /> &nbsp;
+                    <h1 className='titleHeader'><img src={Charac} alt='charac' width='50' height='50' /> &nbsp;
                    Character References</h1>
                     
-                    <hr></hr>
+                    <hr className='hrClassName'></hr>
                     
                     <table>
 
                         <tr>
-                            <td><img src={Developer} alt='developer' width='48' height='56' /></td>  &nbsp;
-                            <td>Assoc. Prof. Noel Estrella, DIT
+                            <td><img src={Telus} alt='telus' width='45' height='62' /></td>  &nbsp;
+                            <td className='titleDescription'>Mr. Dickenson Culala
                             <br />
-                            <span>Professor at College of Information and Computing Sciences</span>
+                            <span className='subtitleDescription'>TELUS International Philippines, Supervisor Intern </span>
                             </td>
                             
                             
                         </tr>
-
+                        <br />
                         <tr>
-                            <td><img src={Developer} alt='developer' width='48' height='56' /></td>  &nbsp;
-                            <td>Asst. Prof. Jerralyn Padua, MSCS
+                            <td><img src={IICS} alt='iics' width='48' height='56' /></td>  &nbsp;
+                            <td className='titleDescription'>Assoc. Prof. Noel Estrella, DIT
                             <br />
-                            <span>Organizational Adviser at Cisco Networking Academy Gateway</span>
-                            <span>Dean at College of Information and Computing Sciences</span>
+                            <span className='subtitleDescription'>Professor at College of Information and Computing Sciences</span>
+                            </td>
+                            
+                            
+                        </tr>
+                        <br />
+                        <tr>
+                            <td><img src={IICS} alt='iics' width='48' height='56' /></td>  &nbsp;
+                            <td className='titleDescription'>Asst. Prof. Jerralyn Padua, MSCS
+                            <br />
+                            <span className='subtitleDescription'>Organizational Adviser at Cisco Networking Academy Gateway</span> <br />
+                            <span className='subtitleDescription'>Dean at College of Information and Computing Sciences</span>
                             </td>
                             
                             

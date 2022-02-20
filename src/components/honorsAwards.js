@@ -12,7 +12,7 @@ class HonorsAwards extends React.Component {
         return(
             <div className='initialDiv'>
                     <br/><br/>
-                    <h1 className='titleHeader'><img src={Trophy} alt='trophy' width='50' height='50' /> &nbsp;
+                    <h1 className='titleHeader'><img src={Trophy} alt='trophy' width='35' height='35' /> &nbsp;
                    Honors and Awards</h1>
                     
                     <hr className='hrClassName'></hr>

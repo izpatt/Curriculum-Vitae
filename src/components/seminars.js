@@ -1,8 +1,8 @@
 import React from 'react';
-import Skill from '../assets/skills.png';
-import Developer from '../assets/developer.png';
-import Tools from '../assets/tools.png';
-import Inter from '../assets/inter.png';
+import Seminar from '../assets/seminars.png';
+import Leadership from '../assets/leadership.png';
+import Git from '../assets/git.png';
+import Interview from '../assets/interview.png';
 
 import'../body.css';
 
@@ -10,40 +10,41 @@ import'../body.css';
 class Seminars extends React.Component {
     render() {
         return(
-            <div className='education'>
+            <div className='initialDiv'>
 
-                    <h1><img src={Skill} alt='skills' width='50' height='50' /> &nbsp;
+                    <h1 className='titleHeader'><img src={Seminar} alt='seminar' width='50' height='50' /> &nbsp;
                    Seminars Attended</h1>
                     
-                    <hr></hr>
+                    <hr className='hrClassName'></hr>
                     
                     <table>
 
                         <tr>
-                            <td><img src={Developer} alt='developer' width='48' height='56' /></td>  &nbsp;
-                            <td>Two-Day Leadership Training Seminar 
+                            <td><img src={Leadership} alt='leader' width='50' height='50' /></td>  &nbsp;
+                            <td  className='titleDescription'>Two-Day Leadership Training Seminar 
                             <br />
-                            <span>January 2021</span>
+                            <span className='dateDescription'>January 2021</span>
                             </td>
                             
                             
                         </tr>
+                        <br />
 
                         <tr>
-                            <td><img src={Developer} alt='developer' width='48' height='56' /></td>  &nbsp;
-                            <td>Tech-Knowledge-G: Let's Git Together 
+                            <td><img src={Git} alt='git' width='50' height='50' /></td>  &nbsp;
+                            <td  className='titleDescription'>Tech-Knowledge-G: Let's Git Together 
                             <br />
-                            <span>January 2022</span>
+                            <span className='dateDescription'>January 2022</span>
                             </td>
                             
                             
                         </tr>
-
+                        <br />
                         <tr>
-                            <td><img src={Tools} alt='tools' width='48' height='56' /></td>  &nbsp;
-                            <td>How To Ace your Web Developer interview - strategies for success
+                            <td><img src={Interview} alt='tools' width='50' height='50' /></td>  &nbsp;
+                            <td  className='titleDescription'>How To Ace your Web Developer interview - strategies for success
                             <br />
-                            <span>Febuary 2022 </span>
+                            <span className='dateDescription'>Febuary 2022 </span>
                                
                             </td>
                             
