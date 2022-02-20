@@ -1,8 +1,47 @@
 .mainHeader {
     background-color: #7B46E3;
-    margin-top: -19px;
-    padding: 1.5%;
+    margin-top: -1.5%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 35px;
+    padding-bottom: 0px;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: Raleway;
+    line-height:25px;
+    color: #F6F6F6;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.gender {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.currentWork {
+    font-weight: 450;
+    font-size: 18px;
+
+}
+
+.religion {
+    font-weight: 350;
+    font-size: 15px;
+
+}
+
+.education {
+    font-family: Raleway;
 }
 
 .contact {

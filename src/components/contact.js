@@ -1,10 +1,10 @@
 import React from 'react';
-import Avatar from './assets/me.png';
-import Phone from './assets/phone.png';
-import Email from './assets/email.png';
-import Address from './assets/address.png';
+import Avatar from '../assets/me.png';
+import Phone from '../assets/phone.png';
+import Email from '../assets/email.png';
+import Address from '../assets/address.png';
 
-import'./body.css';
+import'../body.css';
 
 //Contains Contact Information 
 class Contact extends React.Component {

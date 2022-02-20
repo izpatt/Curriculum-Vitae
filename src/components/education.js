@@ -1,10 +1,10 @@
 import React from 'react';
-import Educ from './assets/educ.png';
-import IICS from './assets/cics.png';
-import SHS from './assets/shs.png';
-import JHS from './assets/jhs.png';
+import Educ from '../assets/educ.png';
+import IICS from '../assets/cics.png';
+import SHS from '../assets/shs.png';
+import JHS from '../assets/jhs.png';
 
-import'./body.css';
+import'../body.css';
 
 //Contains Contact Information 
 class Education extends React.Component {

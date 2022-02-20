@@ -1,12 +1,12 @@
 import React from 'react';
-import Exper from './assets/suitcase.png';
-import Telus from './assets/telus.jpg';
-import CourseHero from './assets/courseHero.png';
-import IEEE from './assets/ieee.jpg';
-import CNAG from './assets/cnag.png';
-import AlgoFilipino from './assets/algoFilipino.png';
+import Exper from '../assets/suitcase.png';
+import Telus from '../assets/telus.jpg';
+import CourseHero from '../assets/courseHero.png';
+import IEEE from '../assets/ieee.jpg';
+import CNAG from '../assets/cnag.png';
+import AlgoFilipino from '../assets/algoFilipino.png';
 
-import'./body.css';
+import'../body.css';
 
 //Contains Contact Information 
 class Experience extends React.Component {
