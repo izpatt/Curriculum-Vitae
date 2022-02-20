@@ -12,11 +12,13 @@ class Seminars extends React.Component {
         return(
             <div className='initialDiv'>
 
+                <br />
+                
                     <h1 className='titleHeader'><img src={Seminar} alt='seminar' width='50' height='50' /> &nbsp;
                    Seminars Attended</h1>
-                    
+
                     <hr className='hrClassName'></hr>
-                    
+
                     <table>
 
                         <tr>

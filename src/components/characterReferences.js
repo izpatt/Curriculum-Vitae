@@ -50,7 +50,7 @@ class CharacterReferences extends React.Component {
                             
                         </tr>                  
 
-                        <br></br>
+                        <br></br><br></br>
 
                        
                     </table>         

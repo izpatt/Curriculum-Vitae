@@ -33,7 +33,7 @@ class Education extends React.Component {
                         <br></br>
 
                         <tr>
-                            <td><img src={SHS} alt='shs' width='50' height='51' /></td>  &nbsp;
+                            <td><img src={SHS} alt='shs' width='50' height='50' /></td>  &nbsp;
                             <td className='titleDescription'>UST Senior High School   
                                 <br/>
                                 <span className='subtitleDescription'>Science, Technology, Engineering and Mathematics Strand (STEM)</span>

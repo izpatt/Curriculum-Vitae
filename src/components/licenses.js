@@ -13,7 +13,7 @@ class Licenses extends React.Component {
                     <h1 className='titleHeader'><img src={Certs} alt='cert' width='50' height='50' /> &nbsp;
                    Licenses and Certification</h1>
                     
-                    <hr></hr>
+                    <hr  className='hrClassName'></hr>
                     
                     <table>
 
