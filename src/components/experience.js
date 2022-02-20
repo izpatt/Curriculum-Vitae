@@ -13,19 +13,19 @@ class Experience extends React.Component {
     render() {
         return(
             <div className='education'>
-
-                    <h1><img src={Exper} alt='experience' width='50' height='50' /> &nbsp;
+                    <br/>
+                    <h1 className='titleHeader'><img src={Exper} alt='experience' width='35' height='35' /> &nbsp;
                    Experience</h1>
                     
-                    <hr></hr>
+                    <hr className='hrClassName'></hr>
                     
                     <table>
                         <tr>
-                            <td><img src={Telus} alt='telus' width='48' height='56' /></td>  &nbsp;
-                            <td>Applications Developer and Support Intern 
+                            <td><img src={Telus} alt='telus' width='45' height='62' /></td>  &nbsp;
+                            <td className='titleDescription'>Applications Developer and Support Intern 
                             <br />
-                            <span>Feb 2022 - May 2022</span>
-                                <ul>
+                            <span className='subtitleDescription'>Feb 2022 - May 2022</span>
+                                <ul className='bulletedDescription'>
                                     <li>TELUS International Philippines · Internship</li>
                                     <li>Practicing Full Stack Technologies such as Java, MYSQL, DevOps, Scrum and Agile Methodology</li>
 
@@ -37,11 +37,11 @@ class Experience extends React.Component {
                         <br></br>
 
                         <tr>
-                            <td><img src={CourseHero} alt='CourseHero' width='48' height='56' /></td>  &nbsp;
-                            <td>Applications Developer and Support Intern 
+                            <td><img src={CourseHero} alt='CourseHero' width='45' height='45' /></td>  &nbsp;
+                            <td className='titleDescription'>Course Hero Tutor 
                                 <br/>
-                                <span>Jun 2021 - Jan 2022</span>
-                                <ul>
+                                <span className='subtitleDescription'>Jun 2021 - Jan 2022</span>
+                                <ul className='bulletedDescription'>
                                     <li>Course Hero · Freelance</li>
                                     <li>Answers student's questions in Computer Science subject, does research and technical writing</li>
                                 </ul>
@@ -52,11 +52,11 @@ class Experience extends React.Component {
                         <br/>
 
                         <tr>
-                            <td><img src={IEEE} alt='IEEE' width='55' height='56' /></td>  &nbsp;
-                                <td>Executive Associate for Public Relations Officer
+                            <td><img src={IEEE} alt='IEEE' width='45' height='50' /></td>  &nbsp;
+                                <td className='titleDescription'>Executive Associate for Public Relations Officer
                                 <br/>
-                                <span>Aug 2020 - May 2021</span>
-                                <ul>
+                                <span className='subtitleDescription'>Aug 2020 - May 2021</span>
+                                <ul className='bulletedDescription'>
                                     <li>UST Institute of Electrical and Electronics Engineers - Student Branch (UST IEEE-SB)</li>
                                     <li>Joined and won 3rd place in Stanford IT Learning’s Software Solutions Hackathon</li>
                                     <li>Caption maker and Video Editor for Social Media Publication Materials </li>
@@ -67,11 +67,11 @@ class Experience extends React.Component {
                         </tr>
 
                         <tr>
-                            <td><img src={CNAG} alt='CNAG' width='48' height='56' /></td>  &nbsp;
-                                <td>President 
+                            <td><img src={CNAG} alt='CNAG' width='50' height='50' /></td>  &nbsp;
+                                <td className='titleDescription'>President 
                                 <br/>
-                                <span>Aug 2020 - May 2021</span>
-                                <ul>
+                                <span className='subtitleDescription'>Aug 2020 - May 2021</span>
+                                <ul className='bulletedDescription'>
                                     <li>UST Cisco Networking Academy Gateway - College of Information and Computing Sciences (CNAG-ICS)</li>
                                     <li>Handles and manages team leaders and members</li>
                                     <li>Hosted and conducted 4th Virtual General Assembly</li>
@@ -83,11 +83,11 @@ class Experience extends React.Component {
 
 
                         <tr>
-                            <td><img src={AlgoFilipino} alt='AlgoFilipino' width='48' height='56' /></td>  &nbsp;
-                                <td>Digital Marketing Associate
+                            <td><img src={AlgoFilipino} alt='AlgoFilipino' width='50' height='55' /></td>  &nbsp;
+                                <td className='titleDescription'>Digital Marketing Associate
                                 <br/>
-                                <span>Feb 2021 - Mar 2021</span>
-                                <ul>
+                                <span className='subtitleDescription'>Feb 2021 - Mar 2021</span>
+                                <ul className='bulletedDescription'>
                                     <li>Manages Social media post engagements</li>
                                     <li>Monitors and schedules meetings, tasks and deadlines</li>
                                 </ul>
@@ -97,11 +97,11 @@ class Experience extends React.Component {
                         </tr>
 
                         <tr>
-                            <td><img src={CNAG} alt='CNAG' width='48' height='56' /></td>  &nbsp;
-                                <td>Associate Vice President for Creatives under the Student Council 
+                            <td><img src={CNAG} alt='CNAG' width='50' height='50' /></td>  &nbsp;
+                                <td className='titleDescription'>Associate Vice President for Creatives under the Student Council 
                                 <br/>
-                                <span>Aug 2019 - May 2020</span>
-                                <ul>
+                                <span className='subtitleDescription'>Aug 2019 - May 2020</span>
+                                <ul className='bulletedDescription'>
                                     <li>UST Cisco Networking Academy Gateway - College of Information and Computing Sciences (CNAG-ICS)</li>
                                     <li>Creates and designs publication materials such as event posters, lanyards and stickers</li>
                                     <li>Does video editing and other presentations</li>

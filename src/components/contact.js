@@ -10,6 +10,7 @@ class Contact extends React.Component {
     render() {
         return(
             <div className='contact'>
+                    
                     <table>
                         <tr>
                             <td><img src={Phone} alt='phone' width='15' height='15' /></td>
@@ -25,7 +26,7 @@ class Contact extends React.Component {
                             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
                             <td><img src={Address} alt='address' width='15' height='15' /></td>
-                            <td>1348 A Lardizabal Street Sampaloc, Manila</td>
+                            <td>1348A Lardizabal St. Sampaloc, Manila</td>
 
                             
                         </tr>

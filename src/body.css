@@ -1,9 +1,8 @@
+
 /* ----------------- Header -----------------s */
 .mainHeader {
     background-color: #7B46E3;
     margin-top: -1.5%;
-    margin-left: 18%;
-    margin-right: 18%;
     padding-top: 20px;
     padding-right: 30px;
     padding-left: 35px;
@@ -45,23 +44,61 @@
 
 .contact {
     background-color: #F6F6F6;
-    margin-left: 18%;
-    margin-right: 18%;
-    padding: 3px;
-
+    padding: 4px;
+   
     font-family: Raleway;
     font-size: 12px;
 
     display: flex;
+    flex-direction: row;
     align-content: space-around;
     justify-content: space-around;
+    align-self: center;
 }
 
 
 .education {
+    padding-right: 30px;
+    padding-left: 35px;
     font-family: Raleway;
 }
 
+/* ----------------- Formats -----------------s */
+
+.titleHeader {
+    font-weight: 600;
+    font-size: 22px;
+    color: #7B46E3;
+}
+
+.titleDescription {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+.subtitleDescription {
+    font-weight: 420;
+    font-size: 14px;
+    
+}
+
+.dateDescription {
+    font-weight: 350;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.bulletedDescription {
+    font-weight: 445;
+    font-size: 14px;
+}
+
+.hrClassName{
+    background-color: #7B46E3;
+    margin-top: -0.5px;
+}
 
 
 .parentBlocks {

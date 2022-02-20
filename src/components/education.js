@@ -6,25 +6,26 @@ import JHS from '../assets/jhs.png';
 
 import'../body.css';
 
-//Contains Contact Information 
+//Contains Educational Background 
 class Education extends React.Component {
     render() {
         return(
+            
             <div className='education'>
-
-                    <h1><img src={Educ} alt='education' width='50' height='50' /> &nbsp;
+                    <br/>
+                    <h1 className='titleHeader'><img src={Educ} alt='education' width='35' height='35' /> &nbsp;
                    Educational Background</h1>
                     
-                    <hr></hr>
+                    <hr className='hrClassName'></hr>
                     
                     <table>
                         <tr>
                             <td><img src={IICS} alt='iics' width='48' height='56' /></td>  &nbsp;
-                            <td>UST College of Information and Computing Sciences 
+                            <td className='titleDescription'>UST College of Information and Computing Sciences 
                                 <br/>
-                                <span>Specializing in Website and Mobile Application Development</span>
+                                <span className='subtitleDescription'>Specializing in Website and Mobile Application Development</span>
                                 <br/>
-                                <span>2018-2022</span>
+                                <span className='dateDescription'>2018-2022</span>
                             </td>
                             
                         </tr>
@@ -33,11 +34,11 @@ class Education extends React.Component {
 
                         <tr>
                             <td><img src={SHS} alt='shs' width='50' height='51' /></td>  &nbsp;
-                            <td>UST Senior High School   
+                            <td className='titleDescription'>UST Senior High School   
                                 <br/>
-                                <span>Science, Technology, Engineering and Mathematics Strand (STEM)</span>
+                                <span className='subtitleDescription'>Science, Technology, Engineering and Mathematics Strand (STEM)</span>
                                 <br/>
-                                <span>2016-2018</span>
+                                <span className='dateDescription'>2016-2018</span>
                             </td>
                             
                         </tr>
@@ -46,11 +47,11 @@ class Education extends React.Component {
 
                         <tr>
                             <td><img src={JHS} alt='jhs' width='51' height='52' /></td>  &nbsp;
-                            <td>UST Junior High School     
+                            <td className='titleDescription'>UST Junior High School     
                                 <br/>
-                                <span>Basic Secondary Education</span>
+                                <span className='subtitleDescription'>Basic Secondary Education</span>
                                 <br/>
-                                <span>2012-2016</span>
+                                <span className='dateDescription'>2012-2016</span>
                             </td>
                             
                         </tr>
