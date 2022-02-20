@@ -1,9 +1,8 @@
 import React from 'react';
-import Avatar from '../assets/me.png';
 import Phone from '../assets/phone.png';
 import Email from '../assets/email.png';
+import LinkedIn from '../assets/linkedIn.png';
 import Address from '../assets/address.png';
-
 import'../body.css';
 
 //Contains Contact Information 
@@ -13,16 +12,22 @@ class Contact extends React.Component {
             <div className='contact'>
                     <table>
                         <tr>
-                            <td><img src={Phone} alt='me' width='20' height='20' /></td>
-                            <td>+639294401786 | 8562-75-61</td>
-                            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+                            <td><img src={Phone} alt='phone' width='15' height='15' /></td>
+                            <td>+639294401786</td>
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 
-                            <td><img src={Email} alt='me' width='20' height='20' /></td>
+                            <td><img src={Email} alt='email' width='15' height='15' /></td>
                             <td>patriciannevalenzuela@gmail.com</td>
-                            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 
-                            <td><img src={Address} alt='me' width='20' height='20' /></td>
+                            <td><img src={LinkedIn} alt='linkedIn' width='15' height='15' /></td>
+                            <td>https://www.linkedin.com/in/patvalenzuela/</td>
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+                            <td><img src={Address} alt='address' width='15' height='15' /></td>
                             <td>1348 A Lardizabal Street Sampaloc, Manila</td>
+
+                            
                         </tr>
                     </table>         
             </div>

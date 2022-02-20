@@ -17,8 +17,7 @@ class Header extends React.Component {
                 <div className='avatar'>
                     <img src={Avatar} alt='me' width='163' height='160' />
                 </div>
-                    
-                  
+              
             </div>
             
         )
