@@ -1,62 +1,75 @@
-import React from 'react';
-import Charac from '../assets/charac.png';
-import Telus from '../assets/telus.jpg';
-import IICS from '../assets/cics.png';
+import React from "react";
+import Charac from "../assets/charac.png";
+import Telus from "../assets/telus.jpg";
+import IICS from "../assets/cics.png";
+import "../body.css";
 
-import'../body.css';
-
-//Contains Character References Information 
+//Contains Character References Information
 class CharacterReferences extends React.Component {
-    render() {
-        return(
-            <div className='initialDiv'>
-                <br/>
+  render() {
+    return (
+      <div className="initialDiv">
+        <br />
 
-                    <h1 className='titleHeader'><img src={Charac} alt='charac' width='50' height='50' /> &nbsp;
-                   Character References</h1>
-                    
-                    <hr className='hrClassName'></hr>
-                    
-                    <table>
+        <h1 className="titleHeader">
+          <img src={Charac} alt="charac" width="55" height="55" /> &nbsp;
+          Character References
+        </h1>
 
-                        <tr>
-                            <td><img src={Telus} alt='telus' width='45' height='62' /></td>  &nbsp;
-                            <td className='titleDescription'>Mr. Dickenson Culala
-                            <br />
-                            <span className='subtitleDescription'>TELUS International Philippines, Supervisor Intern </span>
-                            </td>
-                            
-                            
-                        </tr>
-                        <br />
-                        <tr>
-                            <td><img src={IICS} alt='iics' width='48' height='56' /></td>  &nbsp;
-                            <td className='titleDescription'>Assoc. Prof. Noel Estrella, DIT
-                            <br />
-                            <span className='subtitleDescription'>Professor at College of Information and Computing Sciences</span>
-                            </td>
-                            
-                            
-                        </tr>
-                        <br />
-                        <tr>
-                            <td><img src={IICS} alt='iics' width='48' height='56' /></td>  &nbsp;
-                            <td className='titleDescription'>Asst. Prof. Jerralyn Padua, MSCS
-                            <br />
-                            <span className='subtitleDescription'>Organizational Adviser at Cisco Networking Academy Gateway</span> <br />
-                            <span className='subtitleDescription'>Dean at College of Information and Computing Sciences</span>
-                            </td>
-                            
-                            
-                        </tr>                  
+        <hr className="hrClassName"></hr>
 
-                        <br></br><br></br>
+        <table>
+          <tr>
+            <td>
+              <img src={Telus} alt="telus" width="45" height="62" />
+            </td>{" "}
+            &nbsp;
+            <td className="titleDescription">
+              Mr. Dickenson Culala
+              <br />
+              <span className="subtitleDescription">
+                Supervisor at TELUS International Philippines Internship{" "}
+              </span>
+            </td>
+          </tr>
+          <br />
+          <tr>
+            <td>
+              <img src={IICS} alt="iics" width="48" height="56" />
+            </td>{" "}
+            &nbsp;
+            <td className="titleDescription">
+              Assoc. Prof. Noel Estrella, DIT
+              <br />
+              <span className="subtitleDescription">
+                Professor at UST College of Information and Computing Sciences
+              </span>
+            </td>
+          </tr>
+          <br />
+          <tr>
+            <td>
+              <img src={IICS} alt="iics" width="48" height="56" />
+            </td>{" "}
+            &nbsp;
+            <td className="titleDescription">
+              Asst. Prof. Jerralyn Padua, MSCS
+              <br />
+              <span className="subtitleDescription">
+                Organizational Adviser at UST Cisco Networking Academy Gateway
+              </span>{" "}
+              <br />
+              <span className="subtitleDescription">
+                Dean at the UST College of Information and Computing Sciences
+              </span>
+            </td>
+          </tr>
 
-                       
-                    </table>         
-            </div>
-            
-        )
-    }
+          <br></br>
+          <br></br>
+        </table>
+      </div>
+    );
+  }
 }
 export default CharacterReferences;

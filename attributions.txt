@@ -1,0 +1,27 @@
+Disclaimer: This project is for educational purposes only
+
+All icons used are from www.flaticon.com
+
+<a href="https://www.flaticon.com/free-icons/skill" title="skill icons">Skill icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/university" title="university icons">University icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/phone" title="phone icons">Phone icons created by Creaticca Creative Agency - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by iconixar - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/skill" title="skill icons">Skill icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/web-development" title="web development icons">Web development icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/support" title="support icons">Support icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/illumination" title="illumination icons">Illumination icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/opportunity" title="opportunity icons">Opportunity icons created by Freepik - Flaticon</a> = experience
+
+<a href="https://www.flaticon.com/free-icons/award" title="award icons">Award icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/certificate" title="certificate icons">Certificate icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/refer" title="refer icons">Refer icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/presentation" title="presentation icons">Presentation icons created by alkhalifi design - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/motivation" title="motivation icons">Motivation icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/git" title="git icons">Git icons created by Creatype - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/interview" title="interview icons">Interview icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Enamo Studios - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/cup" title="cup icons">Cup icons created by Freepik - Flaticon</a>
