@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1e0b3daa.css",
+    "main.js": "/static/js/main.a24261e7.js",
+    "static/media/meCircle.png": "/static/media/meCircle.8572bd229483bf53091a.png",
+    "static/media/cics.png": "/static/media/cics.c201a155cd3b4b47818b.png",
+    "static/media/ust.png": "/static/media/ust.2efb8d03152f4fd415a7.png",
+    "static/media/cnag.png": "/static/media/cnag.3f3d87239a3efc29551c.png",
+    "static/media/jhs.png": "/static/media/jhs.6adcda1e734a5364afaf.png",
+    "static/media/shs.png": "/static/media/shs.604d9918c12986aac967.png",
+    "static/media/ieee.jpg": "/static/media/ieee.82da40bc6be1bf6e939f.jpg",
+    "static/media/synergy.jpg": "/static/media/synergy.b540c6127cc498e1bd9f.jpg",
+    "static/media/interview.png": "/static/media/interview.250f7abd18ee74887861.png",
+    "static/media/charac.png": "/static/media/charac.2984aa9808962aeed808.png",
+    "static/media/inter.png": "/static/media/inter.44abff1eabbd32ca43a4.png",
+    "static/media/leadership.png": "/static/media/leadership.ffeed5de67577a6284c0.png",
+    "static/media/git.png": "/static/media/git.67fdda8f53601b3d8aa8.png",
+    "static/media/skills.png": "/static/media/skills.d7301b950ec8c8919ef9.png",
+    "static/media/tools.png": "/static/media/tools.ecfe65624fda2dedfa80.png",
+    "static/media/developer.png": "/static/media/developer.f9558c1aa5813acf2942.png",
+    "static/media/address.png": "/static/media/address.e1efc106d860ab43a7ce.png",
+    "static/media/suitcase.png": "/static/media/suitcase.6cd79a5fb8502f1021b5.png",
+    "static/media/educ.png": "/static/media/educ.4feab2700a9dc99efd5f.png",
+    "static/media/linkedIn.png": "/static/media/linkedIn.02a150fb4db3fff4569a.png",
+    "static/media/certs.png": "/static/media/certs.6168f1fd3d768863f86f.png",
+    "static/media/email.png": "/static/media/email.9dd26a3b6f4d45f136bc.png",
+    "static/media/trophy.png": "/static/media/trophy.c698df3ed44ae1d7ce0d.png",
+    "static/media/algoFilipino.png": "/static/media/algoFilipino.ac300b2ae8343216b246.png",
+    "static/media/phone.png": "/static/media/phone.b76498e5c124d5213615.png",
+    "static/media/seminars.png": "/static/media/seminars.98d4ad18f9e95301771f.png",
+    "index.html": "/index.html",
+    "main.1e0b3daa.css.map": "/static/css/main.1e0b3daa.css.map",
+    "main.a24261e7.js.map": "/static/js/main.a24261e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e0b3daa.css",
+    "static/js/main.a24261e7.js"
+  ]
+}
