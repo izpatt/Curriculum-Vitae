@@ -23,7 +23,7 @@ class Education extends React.Component {
                             <td><img src={IICS} alt='iics' width='45' height='55' /></td>  &nbsp;
                             <td className='titleDescription'>UST College of Information and Computing Sciences 
                                 <br/>
-                                <span className='subtitleDescription'>Specializing in Website and Mobile Application Development</span>
+                                <span className='subtitleDescription'>Magna Cum Laude • Specializing in Website and Mobile Application Development</span>
                                 <br/>
                                 <span className='dateDescription'>2018-2022</span>
                             </td>

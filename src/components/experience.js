@@ -23,6 +23,30 @@ class Experience extends React.Component {
         <hr className="hrClassName"></hr>
 
         <table>
+        <tr>
+            <td>
+              <img src={Telus} alt="telus" width="45" height="62" />
+            </td>{" "}
+            &nbsp;
+            <td className="titleDescription">
+              Applications Development Associate
+              <br />
+              <span className="subtitleDescription">
+                TELUS International Philippines · Full Time
+              </span>{" "}
+              <br />
+              <span className="dateDescription">June 2022 - Present</span>
+              <ul className="bulletedDescription">
+                <li>
+                Quarter 3 Top Performer (4 months - October 2022)
+                </li>
+                <li>
+                Netcracker · Cucumber BDD · Jira · Git · MySQL
+                </li>
+              </ul>
+            </td>
+          </tr>
+
           <tr>
             <td>
               <img src={Telus} alt="telus" width="45" height="62" />
