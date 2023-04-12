@@ -10,7 +10,7 @@ class Header extends React.Component {
                 
                 <div id='personalInformation'>
                     <span className='name'>Patricia Anne M. Valenzuela <span className='gender'>(She/Her)</span></span> <br />
-                    <span className='currentWork'>Applications Development Associate</span> <br />
+                    <span className='currentWork'>Applications Developer</span> <br />
                     <i><span className='religion'>TELUS International Philippines, Inc.</span></i>
                 </div>
 
