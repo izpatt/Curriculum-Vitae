@@ -38,7 +38,7 @@ class Experience extends React.Component {
               <span className="dateDescription">March 2023 - Present</span>
               <ul className="bulletedDescription">
                 <li>
-                Netcracker · Cucumber BDD · Jira · Git · MySQL
+                Netcracker · Cloud · Cucumber BDD · Jira · Git · MySQL
                 </li>
               </ul>
             </td>
