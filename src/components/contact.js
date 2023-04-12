@@ -9,29 +9,31 @@ import'../body.css';
 class Contact extends React.Component {
     render() {
         return(
-            <div className='contact'>
-                    
-                    <table>
-                        <tr>
-                            <td><img src={Phone} alt='phone' width='15' height='15' /></td>
-                            <td>+639294401786</td>
-                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <>
+         
+            <div className='contact container row'>
+                    <div>
+                        <img src={Phone} alt='phone' width='15' height='15' /> &nbsp;
+                        <span>+639294401786</span>
+                    </div>
 
-                            <td><img src={Email} alt='email' width='15' height='15' /></td>
-                            <td>patriciannevalenzuela@gmail.com</td>
-                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                    <div>
+                        <img src={Address} alt='address' width='15' height='15' />    &nbsp;
+                        <span>1348A Lardizabal St. Sampaloc, Manila</span>
+                    </div>
 
-                            <td><img src={LinkedIn} alt='linkedIn' width='15' height='15' /></td>
-                            <td>https://www.linkedin.com/in/patvalenzuela/</td>
-                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <div>
+                        <img src={Email} alt='email' width='15' height='15' /> &nbsp;
+                        <span>patriciannevalenzuela@gmail.com</span>
+                    </div>
 
-                            <td><img src={Address} alt='address' width='15' height='15' /></td>
-                            <td>1348A Lardizabal St. Sampaloc, Manila</td>
-
-                            
-                        </tr>
-                    </table>         
+                    <div>
+                    <img src={LinkedIn} alt='linkedIn' width='15' height='15' />  &nbsp;
+                        <span>https://www.linkedin.com/in/patvalenzuela</span>
+                    </div>
             </div>
+         
+            </>
             
         )
     }

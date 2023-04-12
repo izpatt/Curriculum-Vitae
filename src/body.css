@@ -44,16 +44,18 @@
 
 .contact {
     background-color: #F6F6F6;
-    padding: 4px;
+    /* padding: 4px; */
    
     font-family: Raleway;
     font-size: 12px;
-
+    margin-left: 0px; 
+    padding: 3px;
     display: flex;
     flex-direction: row;
     align-content: space-around;
     justify-content: space-around;
     align-self: center;
+  
 }
 
 
