@@ -24,10 +24,31 @@ class Experience extends React.Component {
 
         <table>
         <tr>
+          <td>
+              <img src={Telus} alt="telus" width="45" height="62" />
+            </td>{" "}
+            &nbsp;
+            <td className="titleDescription">
+              Applications Developer
+              <br />
+              <span className="subtitleDescription">
+                TELUS International Philippines · Full Time
+              </span>{" "}
+              <br />
+              <span className="dateDescription">March 2023 - Present</span>
+              <ul className="bulletedDescription">
+                <li>
+                Netcracker · Cucumber BDD · Jira · Git · MySQL
+                </li>
+              </ul>
+            </td>
+        </tr>
+        <tr>
             <td>
               <img src={Telus} alt="telus" width="45" height="62" />
             </td>{" "}
             &nbsp;
+            
             <td className="titleDescription">
               Applications Development Associate
               <br />
@@ -35,7 +56,7 @@ class Experience extends React.Component {
                 TELUS International Philippines · Full Time
               </span>{" "}
               <br />
-              <span className="dateDescription">June 2022 - Present</span>
+              <span className="dateDescription">June 2022 - March 2023</span>
               <ul className="bulletedDescription">
                 <li>
                 Quarter 3 Top Performer (4 months - October 2022)
